@@ -1,4 +1,4 @@
-# 🌐 Load Balancer Visualization Platform
+# 🌐 RequestFlow: Interactive Platform for Simulating and Visualizing Load Balancing Algorithms
 
 A full-stack, interactive simulation and visualization platform designed to demonstrate the inner workings of core load balancing algorithms in real-time. This project features a robust **Spring Boot (Java)** backend handling the routing simulation and concurrency control, paired with a modern, responsive **Next.js (React)** frontend using **Tailwind CSS** to visualize traffic distribution.
 
@@ -139,7 +139,7 @@ All backend endpoints are prefixed with `/api/loadbalancer`.
 ## 📁 Directory Structure
 
 ```text
-LoadBalancerVisulization-main/
+RequestFlow-Interactive-Platform-for-Simulating-and-Visualizing-Load-Balancing-Algorithms/
 ├── .mvn/                         # Maven Wrapper files
 ├── Load_balance_images/          # Demo screenshots
 │   ├── home.png
@@ -184,7 +184,7 @@ Follow these steps to run the application locally.
 ### Step 1: Run the Backend (Spring Boot)
 1. Navigate to the project root directory:
    ```bash
-   cd LoadBalancerVisulization-main
+   cd RequestFlow-Interactive-Platform-for-Simulating-and-Visualizing-Load-Balancing-Algorithms
    ```
 2. Run the application using the Maven wrapper:
    * **Windows (PowerShell/CMD):**
@@ -202,7 +202,7 @@ Follow these steps to run the application locally.
 ### Step 2: Run the Frontend (Next.js)
 1. Open a new terminal and navigate to the frontend directory:
    ```bash
-   cd LoadBalancerVisulization-main/frontend
+   cd RequestFlow-Interactive-Platform-for-Simulating-and-Visualizing-Load-Balancing-Algorithms/frontend
    ```
 2. Install the required dependencies:
    ```bash
